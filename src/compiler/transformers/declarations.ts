@@ -41,6 +41,7 @@ namespace ts {
         NodeBuilderFlags.UseStructuralFallback |
         NodeBuilderFlags.AllowEmptyTuple |
         NodeBuilderFlags.GenerateNamesForShadowedTypeParams |
+        NodeBuilderFlags.AllowNodeModulesRelativePaths |
         NodeBuilderFlags.NoTruncation;
 
     /**
